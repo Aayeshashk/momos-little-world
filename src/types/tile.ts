@@ -5,3 +5,9 @@ export type TileType =
   | 'flower'
   | 'tree'
   | 'building'
+
+export const BLOCKED_TILES: TileType[] = [
+  'water',
+  'tree',
+  'building',
+]
